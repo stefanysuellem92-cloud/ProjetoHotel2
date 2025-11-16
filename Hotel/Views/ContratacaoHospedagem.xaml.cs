@@ -35,6 +35,21 @@ public partial class ContratacaoHospedagem : ContentPage
 		}
 	}
 
+
+    private void Button_Clicked2(object sender, EventArgs e)
+    {
+        try
+        {
+            Navigation.PushAsync(new Sobre());
+
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("OPS", ex.Message, "OK");
+        }
+    }
+
+
     private void dtpck_checkin_DateSelected(object sender, DateChangedEventArgs e)
     {
 		DatePicker elemento = sender as DatePicker;

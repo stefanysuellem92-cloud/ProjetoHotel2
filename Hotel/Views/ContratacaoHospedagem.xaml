@@ -5,9 +5,14 @@
              Title="ContratacaoHospedagem"
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="Indigo">
-            
+
+   
+
+
+
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
+        <Button Text="Informaçoes do APP" Clicked="Button_Clicked2"/>
         <Label 
             Text="Calculo da Diária"
             FontFamily="LilitaOne"
